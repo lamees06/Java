@@ -1,0 +1,13 @@
+abstract class demo{
+    abstract void display();
+    public static void main(String[] args)
+    {
+        test t=new test();
+        t.display();
+    }
+}
+class test extends demo{
+    void display(){
+        System.out.println("Hello Java");
+    }
+}

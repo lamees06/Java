@@ -1,0 +1,7 @@
+public class Removespaces{
+    public static void main(String[] args) {
+        String str="Java is easy to learn";
+        String result=str.replace(" ","");
+        System.out.println(result);
+    }
+}
